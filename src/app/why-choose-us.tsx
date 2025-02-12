@@ -41,7 +41,7 @@ export function WhyChooseUs() {
   return (
     <section className="w-full max-w-4xl mx-auto flex flex-col items-center px-4 py-10">
       <Typography variant="h2" className="text-center mb-2" color="blue-gray">
-        Why choose our course?
+        Hizmetlerimiz
       </Typography>
       <Typography
         variant="lead"
@@ -52,24 +52,25 @@ export function WhyChooseUs() {
       </Typography>
       <div className="mt-8">
         <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-12 mb-24">
-          <BackgroundCard title="Expert Instructors">
-            Learn from industry professionals with years of hands-on experience
-            in React development.
+          <BackgroundCard title="">
+          <img src="/image/tamir.jpg" alt="Tamir" className="w-full h-auto rounded-lg" />
+
+            
           </BackgroundCard>
           <div className="space-y-8">
             <div className="my-4">
-              <Option icon={CloudIcon} title="React Fundamentals">
+              <Option icon={CloudIcon} title="Toner & Kartuş Dolumu">
                 Start with the basics. Understand React&apos;s core concepts,
                 component structure, and the virtual DOM.
               </Option>
             </div>
             <div className="mb-4 flex gap-4">
-              <Option icon={ChartPieIcon} title="State and Props">
+              <Option icon={ChartPieIcon} title="Yazıcı Tamiri ve Bakımı">
                 Learn how to manage component state and utilize props to pass
                 data between components.
               </Option>
             </div>
-            <Option icon={Cog6ToothIcon} title="Component Lifecycle">
+            <Option icon={Cog6ToothIcon} title="Sıfır & İkinci El Yazıcı Satışı">
               Dive into the lifecycle of React components and harness its power
               to control your application&apos;s behavior.
             </Option>
@@ -78,17 +79,17 @@ export function WhyChooseUs() {
         <div className="grid grid-cols-1 items-center md:grid-cols-2 gap-12 mb-24">
           <div className="space-y-8">
             <div className="my-4">
-              <Option icon={KeyIcon} title="Routing with React Router">
+              <Option icon={KeyIcon} title="Orijinal & Muadil Toner Satışı">
                 Create single-page applications (SPAs) with seamless navigation
                 using React Router.
               </Option>
             </div>
             <div className="mb-4 flex gap-4">
-              <Option icon={UsersIcon} title="Handling Forms">
+              <Option icon={UsersIcon} title="Teknik Servis & Yerinde Destek">
                 Master form handling in React and manage user input effectively.
               </Option>
             </div>
-            <Option icon={CloudArrowDownIcon} title="State Management">
+            <Option icon={CloudArrowDownIcon} title="Yazıcı Kiralama Hizmeti">
               Explore state management options, including local component state
               and global state using Redux or Context API.
             </Option>

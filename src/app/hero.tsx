@@ -20,10 +20,7 @@ function Hero() {
           color="white"
           className="mt-6 mb-10 w-full md:max-w-full lg:max-w-3xl"
         >
-          Our React Course is your gateway to becoming a proficient React
-          developer. Learn to build dynamic and interactive web applications
-          using one of the most popular JavaScript libraries in the industry.
-        </Typography>
+Başarı Teknik olarak, uzun yıllardır yazıcı ve fotokopi sektöründe edindiğimiz deneyimle, kaliteli satış ve tamir hizmetleri sunuyoruz.        </Typography>
         <div>
           <Button variant="gradient" color="white">
             ENROLL TODAY
