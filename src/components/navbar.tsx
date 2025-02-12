@@ -65,19 +65,19 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"}>
-          BAŞARI TEKNİK 
+          BAŞARI YAZICI SERVİSİ 
         </Typography>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
             isScrolling ? "text-gray-900" : "text-white"
           }`}
         >
-          <NavItem>Home</NavItem>
+          {/* <NavItem>Home</NavItem>
           <NavItem>About Us</NavItem>
           <NavItem>Contact Us</NavItem>
           <NavItem href="https://www.material-tailwind.com/docs/react/installation">
             Docs
-          </NavItem>
+          </NavItem> */}
         </ul>
         <div className="hidden gap-2 lg:flex">
           <IconButton
@@ -101,9 +101,9 @@ export function Navbar() {
           >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
+          <a href="#footer" target="_blank">
             <Button color={isScrolling ? "gray" : "white"} size="sm">
-              Blocks
+              İletişim
             </Button>
           </a>
         </div>
@@ -129,8 +129,8 @@ export function Navbar() {
             <NavItem href="https://www.material-tailwind.com/docs/react/installation">
               Docs
             </NavItem>
-            <NavItem href="https://www.material-tailwind.com/blocks">
-              Blocks
+            <NavItem href="#footer">
+              İletişim
             </NavItem>
           </ul>
           <div className="mt-4 flex gap-2">
