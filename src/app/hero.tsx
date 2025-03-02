@@ -1,6 +1,6 @@
 "use client";
 
-import { Button, Typography, Card } from "@material-tailwind/react";
+import { Typography } from '@mui/material';
 
 function Hero() {
   return (
@@ -16,7 +16,7 @@ function Hero() {
           BAŞARI YAZICI SERVİSİ
         </Typography>
         <Typography
-          variant="lead"
+          variant="h1"
           color="white"
           className="mt-6 mb-10 w-full md:max-w-full lg:max-w-3xl"
         >

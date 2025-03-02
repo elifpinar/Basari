@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import { Card, CardBody, Button, Typography } from "@material-tailwind/react";
+import { Card, CardContent, Button } from '@mui/material';
 import { CheckIcon } from "@heroicons/react/24/outline";
+import { Typography } from '@mui/material';
 
 
 const PRICING_OPTIONS = [
@@ -19,20 +20,20 @@ export function Pricing() {
           <Typography variant="h2" color="blue-gray">
             Best no-tricks pricing
           </Typography>
-          <Typography variant="lead" className="mt-2 !text-gray-500 lg:w-5/12">
+          <Typography variant="h1" className="mt-2 !text-gray-500 lg:w-5/12">
             If you are not satisfied, contact us within the first 30 days and we
             will send you a full refund.
           </Typography>
         </div>
         <Card className="px-6 pb-5">
-          <CardBody>
+          <CardContent>
             <Typography variant="h3" color="blue-gray">
               React Course Membership
             </Typography>
             <div className="grid grid-cols-1 items-center gap-20 lg:grid-cols-2">
               <div>
                 <Typography
-                  variant="paragraph"
+                  variant="body1"
                   className="mb-10 mt-2 w-full font-normal !text-gray-500"
                 >
                   Our Course Package offers full access to the React Course,
@@ -53,7 +54,7 @@ export function Pricing() {
                         strokeWidth={3}
                       />
                       <Typography
-                        variant="paragraph"
+                        variant="body1"
                         className="font-normal !text-gray-500"
                       >
                         {option}
@@ -69,18 +70,18 @@ export function Pricing() {
                 <Typography variant="h1" color="blue-gray">
                   $399
                 </Typography>
-                <Button color="gray" className="my-3">
+                <Button color="success" className="my-3">
                   get access
                 </Button>
                 <Typography
-                  variant="small"
+                  variant="body2"
                   className="font-normal !text-gray-500"
                 >
                   Get a free sample (20MB)
                 </Typography>
               </div>
             </div>
-          </CardBody>
+          </CardContent>
         </Card>
       </section>
     </div>

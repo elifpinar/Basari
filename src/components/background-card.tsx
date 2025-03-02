@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Typography } from "@material-tailwind/react";
+import { Typography } from '@mui/material';
 
 interface BackgroundCardProps {
   title: string;

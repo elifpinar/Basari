@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import { Typography } from "@material-tailwind/react";
+import { Typography } from '@mui/material';
 import {
   AcademicCapIcon,
   CheckBadgeIcon,
@@ -45,12 +45,11 @@ export function OnlineCourse() {
           />
         </div>
         <div className="col-span-2 lg:pl-24">
-          <Typography variant="h2" color="blue-gray" className="mb-4">
+          <Typography >
             Hizmetlerimiz
           </Typography>
           <Typography
-            variant="lead"
-            className="mb-5 max-w-lg px-4 text-left text-lg !text-gray-500 lg:px-0  "
+             
           >
             In this comprehensive React Course, you&apos;ll delve into the world
             of React, from its fundamentals to advanced techniques. Our expert

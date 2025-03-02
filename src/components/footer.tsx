@@ -1,4 +1,4 @@
-import { Typography, Button, Input } from "@material-tailwind/react";
+import { Typography, Button, Input } from '@mui/material';
 
 const LINKS = [
   {
@@ -45,7 +45,7 @@ export function Footer() {
     width="100%"
     height="300"
     style={{ border: "0" }}
-    allowFullScreen=""
+    
     loading="lazy"
     referrerPolicy="no-referrer-when-downgrade"
     title="Business Location"

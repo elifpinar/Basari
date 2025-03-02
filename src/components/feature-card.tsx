@@ -2,8 +2,8 @@ import React from "react";
 import {
   Typography,
   Card,
-  CardBody,
-} from "@material-tailwind/react";
+  CardContent,
+} from '@mui/material';
 
 interface FeatureCardProps {
   icon: React.ElementType;
@@ -12,8 +12,8 @@ interface FeatureCardProps {
 }
 export function FeatureCard({ icon: Icon, title, children }: FeatureCardProps) {
   return (
-    <Card color="transparent" shadow={false}>
-      <CardBody className="grid place-items-start px-0">
+    <Card  >
+      <CardContent className="grid place-items-start px-0">
         <div className="mb-3 grid place-content-center rounded-lg text-left text-blue-gray-900">
           <Icon className="h-6 w-6" />
         </div>
@@ -23,7 +23,7 @@ export function FeatureCard({ icon: Icon, title, children }: FeatureCardProps) {
         <Typography className="text-gray-500 font-normal">
           {children}
         </Typography>
-      </CardBody>
+      </CardContent>
     </Card>
   );
 }

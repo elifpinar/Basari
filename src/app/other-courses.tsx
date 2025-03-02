@@ -1,6 +1,7 @@
 "use client";
 
-import { Typography } from "@material-tailwind/react";
+import { Typography } from '@mui/material';
+
 import CourseCard from "@/components/course-card";
 
 const OTHER_COURSES = [
@@ -38,7 +39,7 @@ export function OtherCourses() {
           Other Courses
         </Typography>
         <Typography
-          variant="lead"
+          variant="h1"
           className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
         >
           Looking to elevate your web development skills? Browse through 1,000+

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { Typography } from "@material-tailwind/react";
+import { Typography } from '@mui/material';
 import {
   ChartPieIcon,
   CloudArrowDownIcon,
@@ -44,7 +44,7 @@ export function WhyChooseUs() {
         Hizmetlerimiz
       </Typography>
       <Typography
-        variant="lead"
+        variant="h2"
         className="mb-16 w-full text-center font-normal !text-gray-500 lg:w-10/12"
       >
         Discover the unique advantages, benefits, and standout features that set
