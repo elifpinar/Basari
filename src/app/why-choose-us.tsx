@@ -60,16 +60,19 @@ export function WhyChooseUs() {
           <div className="space-y-8">
             <div className="my-4">
               <Option icon={CloudIcon} title="Toner & Kartuş Dolumu">
-              Lazer ve mürekkep püskürtmeli yazıcılar için kaliteli toner ve kartuş dolum hizmeti sunuyoruz. Ekonomik çözümlerimizle maliyetlerinizi düşürüyoruz.
+                Start with the basics. Understand React&apos;s core concepts,
+                component structure, and the virtual DOM.
               </Option>
             </div>
             <div className="mb-4 flex gap-4">
               <Option icon={ChartPieIcon} title="Yazıcı Tamiri ve Bakımı">
-              Her marka ve model yazıcınız için hızlı ve garantili tamir hizmeti sunuyoruz. Periyodik bakım hizmetimizle yazıcınızın ömrünü uzatıyoruz.
+                Learn how to manage component state and utilize props to pass
+                data between components.
               </Option>
             </div>
             <Option icon={Cog6ToothIcon} title="Sıfır & İkinci El Yazıcı Satışı">
-            En iyi markalara ait yazıcıları en uygun fiyatlarla sunuyoruz. İhtiyacınıza en uygun yazıcıyı seçmeniz için uzman ekibimizle yanınızdayız.
+              Dive into the lifecycle of React components and harness its power
+              to control your application&apos;s behavior.
             </Option>
           </div>
         </div>
@@ -77,21 +80,23 @@ export function WhyChooseUs() {
           <div className="space-y-8">
             <div className="my-4">
               <Option icon={KeyIcon} title="Orijinal & Muadil Toner Satışı">
-              Yazıcınızın performansını en iyi şekilde korumak için orijinal ve yüksek kaliteli muadil toner seçenekleri sunuyoruz.
+                Create single-page applications (SPAs) with seamless navigation
+                using React Router.
               </Option>
             </div>
             <div className="mb-4 flex gap-4">
               <Option icon={UsersIcon} title="Teknik Servis & Yerinde Destek">
-              Ofisinizde yazıcı arızalarını gidermek için yerinde servis hizmeti sunuyoruz. Hızlı ve etkili çözümlerimizle işlerinizi aksatmadan devam etmenizi sağlıyoruz.
+                Master form handling in React and manage user input effectively.
               </Option>
             </div>
             <Option icon={CloudArrowDownIcon} title="Yazıcı Kiralama Hizmeti">
-            İşletmeler için uygun maliyetli ve uzun vadeli yazıcı kiralama hizmeti sunuyoruz. Yüksek baskı hacmine uygun profesyonel cihazlarımızla iş yükünüzü hafifletiyoruz.
+              Explore state management options, including local component state
+              and global state using Redux or Context API.
             </Option>
           </div>
-          <BackgroundCard title="">
-          <img src="/image/2.png" alt="Tamir" className="w-full h-auto rounded-lg" />
-
+          <BackgroundCard title="Supportive Community">
+            Connect with fellow learners, share experiences, and get support
+            from instructors and peers.
           </BackgroundCard>
         </div>
       </div>

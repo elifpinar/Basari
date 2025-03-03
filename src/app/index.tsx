@@ -6,5 +6,6 @@ export * from "./pricing";
 export * from "./other-courses";
 export * from "./online-course";
 export * from "./why-choose-us";
+export * from "./carousel-features";
 
 
